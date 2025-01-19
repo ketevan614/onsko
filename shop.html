@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Onsko</title>
+
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class='logo-name'>
+            <span class="material-icons logo">filter_vintage</span>
+            <h1>Onsko</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-bar">
+            <a href='cart.html'>your cart</a>
+            <span class="material-icons cart" id='cart-icon'>shopping_cart<span id='cart-items-quantity'></span></span>
+            <input type="text" placeholder="Search...">
+            <span class="material-icons search" id='search'>
+                search
+            </span>
+        </div>
+    </header>
+
+    <main>
+        <section id='filter-categories'>
+            <div class='browse-container'>
+                <p>browse by</p>
+                <div class='browse'>
+                    <p id='beauty'>beauty</p>
+                    <p id='fragrances'>fragrances</p>
+                    <p id='furniture'>furniture</p>
+                    <p id='groceries'>groceries</p>
+                    <p id='best-seller'>best sellers</p>
+                </div>
+            </div>
+            <div id='filter-price'>
+                <p>filter by</p>
+                <div id='filter-container'>
+                    <div class='close' id='price-toggle'>
+                        <p>price</p>
+                        <div class='icons'>
+                            <span class="material-icons" id='add'>add</span>
+                            <span class="material-icons" id='remove'>remove</span>
+                        </div>
+                    </div>
+                    <div class='filter' id='price-filter'>
+                        <div class='radios'>
+                            <label>
+                                <input type="radio" name="price-sort" value="min-max" id="min-max"> Low to High
+                            </label>
+                            <label>
+                                <input type="radio" name="price-sort" value="max-min" id="max-min"> High to Low
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+        </section>
+        <section class='all product'>
+
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <div>
+                <p>shop</p>
+                <ul>
+                    <li><a href='index.html'>home</a></li>
+                    <li><a href='about.html'>about</a></li>
+                    <li><a href='shop.html'>shop</a></li>
+                    <li><a href='blog.html'>blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>policy</p>
+                <ul>
+                    <li><a href='#'>terms of use</a></li>
+                    <li><a href='#'>privacy policy</a></li>
+                    <li><a href='#'>refund policy</a></li>
+                    <li><a href='#'>shipping policy</a></li>
+                    <li><a href='#'>cancellation policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>contact</p>
+                <ul>
+                    <li>500 terry francine street
+                        san francisco, ca 94158</li>
+                    <li>info@mysite.com</li>
+                    <li>123-456-7890</li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <p id='sub'>subscribe to our newsletter</p>
+            <p>be the first to know about new collections and exclusive offers.</p>
+            <input type='email' placeholder='enter your email'>
+
+            <a href=''> subscribe</a>
+        </div>
+    </footer>
+    <script src='public/js/app.js'></script>
+    <script src='public/js/shop.js'></script>
+
+</body>
+
+</html>

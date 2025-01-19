@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONSKO</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class='logo-name'>
+            <span class="material-icons logo">filter_vintage</span>
+            <h1>Onsko</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-bar">
+            <a href='cart.html'>your cart</a>
+            <span class="material-icons cart" id='cart-icon'>shopping_cart<span id='cart-items-quantity'></span></span>
+            <input type="text" placeholder="Search...">
+            <span class="material-icons search" id='search'>
+                search
+            </span>
+        </div>
+    </header>
+    <main>
+        <section id='single-product-container'>
+
+        </section>
+        <section id='reviews'>
+            <div class='close' id='review-close'>
+                <p>client reviews</p>
+                <div class='icons'>
+                    <span class="material-icons" id='down'>keyboard_arrow_down</span>
+                    <span class="material-icons" id='up'>keyboard_arrow_up </span>
+                </div>
+            </div>
+            <div class='review-container'>
+
+            </div>
+        </section>
+        <section id='my-comment'>
+            <div class='review'>
+                <img src='public/images/myUser.png' alt='myPic'>
+                <div class='user'>
+                    <div class='user-information'>
+                        <div class='name'>
+                            <p>Your Name</p>
+                            <p class='mail'>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class = 'rate'>
+                        <input type='text' placeholder="tell us about your experience">
+                        <input type='number' placeholder="enter rating(0, 5)">
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id='suggestions' class='scroll-container'>
+            <h2>similar products</h2>
+            <div class='suggestion product'>
+
+            </div>
+        </section>
+    </main>
+    </div>
+    <footer>
+        <nav>
+            <div>
+                <p>shop</p>
+                <ul>
+                    <li><a href='index.html'>home</a></li>
+                    <li><a href='about.html'>about</a></li>
+                    <li><a href='shop.html'>shop</a></li>
+                    <li><a href='blog.html'>blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>policy</p>
+                <ul>
+                    <li><a href='#'>terms of use</a></li>
+                    <li><a href='#'>privacy policy</a></li>
+                    <li><a href='#'>refund policy</a></li>
+                    <li><a href='#'>shipping policy</a></li>
+                    <li><a href='#'>cancellation policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>contact</p>
+                <ul>
+                    <li>500 terry francine street
+                        san francisco, ca 94158</li>
+                    <li>info@mysite.com</li>
+                    <li>123-456-7890</li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <p id='sub'>subscribe to our newsletter</p>
+            <p>be the first to know about new collections and exclusive offers.</p>
+            <input type='email' placeholder='enter your email'>
+
+            <a href=''> subscribe</a>
+        </div>
+    </footer>
+    <script src='public/js/app.js'></script>
+    <script src='public/js/product.js'></script>
+
+</body>
+
+</html>
